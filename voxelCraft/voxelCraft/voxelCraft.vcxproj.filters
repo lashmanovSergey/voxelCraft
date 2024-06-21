@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\window">
+      <UniqueIdentifier>{29d07551-e4ab-4b7f-85ca-717df5e283fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\graphics">
+      <UniqueIdentifier>{4ca36961-2b9e-4c10-9931-16d16f608a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{4a0418bc-98a7-4e9c-8590-ed2174fbdc12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\shaders">
+      <UniqueIdentifier>{1a3e698c-38a2-4609-a13c-036bd6d2d48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\loaders">
+      <UniqueIdentifier>{cda22100-10e0-41a3-8124-6426a0bb144d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\other_includes">
+      <UniqueIdentifier>{09dd3cbf-995b-408e-84b6-22c2e42c1d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\textures">
+      <UniqueIdentifier>{24ee3ee9-f78f-4b9e-8087-0a10484f78ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>Исходные файлы\window</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы\window</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Исходные файлы\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="png_loading.cpp">
+      <Filter>Исходные файлы\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Исходные файлы\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Исходные файлы\other_includes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Events.h">
+      <Filter>Исходные файлы\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Исходные файлы\window</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Исходные файлы\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="png_loading.h">
+      <Filter>Исходные файлы\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Исходные файлы\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Исходные файлы\other_includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.glslv">
+      <Filter>res\shaders</Filter>
+    </None>
+    <None Include="main.glslf">
+      <Filter>res\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="stone.png">
+      <Filter>res\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

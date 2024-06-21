@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\CSGOS\OneDrive\Desktop\project ( minecraft )\voxelCraft\voxelCraft\Window.h(3,17): warning C4099: GLFWwindow: имя типа, ранее отображенное с помощью "struct", теперь отображено с помощью "class"
+C:\Users\CSGOS\OneDrive\Desktop\project ( minecraft )\voxelCraft\includes\GLFW\glfw3.h(1403,16): message : см. объявление "GLFWwindow"
+  voxelCraft.vcxproj -> C:\Users\CSGOS\OneDrive\Desktop\project ( minecraft )\voxelCraft\x64\Debug\voxelCraft.exe
